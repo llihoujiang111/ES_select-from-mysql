@@ -5,7 +5,7 @@ import re
 from elasticsearch import Elasticsearch
 from creole import CreoleParser, HtmlEmitter
 from opencc import OpenCC
-import insert_db
+from E_mysql import insert_db
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030')
 #繁转简
